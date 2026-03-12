@@ -1,0 +1,87 @@
+<!-- fragments/hero.html -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="hero-section">
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-greeting">Hi there, I'm</div>
+                <h1 class="hero-title"><span class="gradient-text">Irfan Pathan</span></h1>
+                <h2 class="hero-subtitle">Aspiring Java Full Stack Developer</h2>
+                <p class="hero-description">
+                    Passionate about solving real-world problems through code Currently pursuing a Master’s degree in Computer Science and actively learning Java Full Stack development while building practical applications to strengthen my software development skills.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        Get In Touch
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="tel:+917447336914" class="social-link">
+                        <i class="fas fa-phone-alt"></i>
+                    </a>
+                    <a href="mailto:irfanpathan31311@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/irfanpathan11/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/IrfanPathan11" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-visual-inner">
+                    <div class="hero-visual-frame">
+                        <img src="/images/1733754826116.JPG" alt="Profile" style="width: 90%; height: 90%; object-fit: cover; border-radius: 15px;">
+                    </div>
+                    <div class="hero-visual-frame"></div>
+                    <div class="hero-visual-frame"></div>
+                </div>
+                <div class="hero-stats stats-1">
+                    <div class="hero-stats-icon">
+                        <i class="fas fa-file-download"></i>
+                    </div>
+
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Resume</div>
+
+                        <div class="hero-stats-value">
+                            <a href="/resume/IrfanPathan_JavaFullStack.pdf" download class="resume-download">
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-stats stats-3">
+                    <div class="hero-stats-icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                    <div class="hero-stats-text">
+                        <div class="hero-stats-label">Instagram</div>
+
+                        <div class="hero-stats-value">
+                            <a href="https://instagram.com/irfanpathan.11" target="_blank">
+                                irfanpathan.11
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-indicator-line">
+                <div class="scroll-indicator-dot"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+</th:block>
+</html>
